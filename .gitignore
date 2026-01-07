@@ -1,0 +1,16 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Sensitive config files with OAuth tokens
+accounts.json
+**/accounts.json
+.config/antigravity-proxy/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
